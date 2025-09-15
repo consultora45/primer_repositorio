@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Bere</title>
+  </head>
+  <body>
+    <form action="/mi_formulario.php" method="POST" name="registroBasico">
+
+        <div>
+            <label for="name">Tu nombre completo:</label>
+            <input id="name" type="text" value="Bere Ejemplo" required>
+        </div>
+        <br>
+        <div>
+            <label for="age">Fecha de nacimiento:</label>
+            <input id="age" type="date">
+        </div>
+        <br>
+        <div>
+            <label for="check">¿Aceptas participar?</label>
+            <input id="check" type="checkbox" required>
+        </div>
+        <br>
+        <div>
+            <input id="hidden" type="hidden" value="México">
+        </div>
+        <div>
+            <label for="color">Color favorito:</label>
+            <input id="color" type="color">
+        </div>
+        <br>
+        <div>
+            <label for="hour">Selecciona la hora actual:</label>
+            <input id="hour" type="time">
+        </div>
+        <br>
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input id="email" type="email" placeholder="ejemplo@correo.com">
+        </div>
+        <br>
+        <div>
+            <label for="photos">Sube tus imágenes favoritas:</label>
+            <input id="photos" type="file" multiple>
+        </div>
+        <br>
+        <div>
+            <label for="dni">Número de identificación:</label>
+            <input id="dni" type="number" max="99999999" min="10000000" required>
+        </div>
+        <br>
+        <div>
+            <label for="tel">Teléfono de contacto:</label>
+            <input id="tel" type="tel" placeholder="+52 555 123 4567">
+        </div>
+        <br>
+        <div>
+            <label for="password">Crea una contraseña:</label>
+            <input id="password" type="password" required maxlength="10" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        </div>
+        <br>
+        <div>
+            <label for="happy">¿Qué tan feliz estás hoy?</label>
+            <input id="happy" type="range" min="1" max="10" value="5">
+        </div>
+        <br>
+        <div>
+            <label for="radio">¿Te gusta programar?</label>
+            <input id="radio" type="radio">
+        </div>
+        <br>
+        <div>
+            <label for="city">Selecciona tu ciudad:</label>
+            <select id="city">
+                <option disabled selected>-- Selecciona --</option>
+                <option value="CDMX">Ciudad de México</option>
+                <option value="Guadalajara">Guadalajara</option>
+                <option value="Monterrey">Monterrey</option>
+                <option value="Puebla">Puebla</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="textarea">Cuéntanos algo sobre ti:</label>
+            <textarea id="textarea"></textarea>
+        </div>
+        <br><br>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <button type="reset" disabled>No disponible</button>
+        </div>
+        <br><br>
+
+    </form>
+  </body>
+</html>
