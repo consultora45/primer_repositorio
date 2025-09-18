@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing | Bere</title>
+</head>
+<body>
+  <header>
+    <h1>Landing de Bere</h1>
+    <p>Texto corto que explique tu propuesta.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Beneficios</h2>
+      <ul>
+        <li>Beneficio 1</li>
+        <li>Beneficio 2</li>
+        <li>Beneficio 3</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <form method="POST" action="/action.php" name="contacto">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" required minlength="2" maxlength="40">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="tu@correo.com" required>
+        </div>
+
+        <div>
+          <label for="interes">Interés</label>
+          <select id="interes" name="interes" required>
+            <option disabled selected>Selecciona...</option>
+            <option value="curso">Curso</option>
+            <option value="asesoria">Asesoría</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+
+        <div>
+          <input id="acepto" name="acepto" type="checkbox" required>
+          <label for="acepto">Acepto términos</label>
+        </div>
+
+        <div>
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+        </div>
+
+        <div>
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpiar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Volver al LinkTree</a></p>
+  </footer>
+</body>
+</html>
