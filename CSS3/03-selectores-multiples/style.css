@@ -1,0 +1,21 @@
+*{ padding:0; margin:0; box-sizing:border-box; }
+*{ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+
+/* Fondo del body */
+body{ background: lightcyan; }
+
+/* main */
+main{ padding-top: 1rem; padding-left: 1rem; color: black; }
+
+/* listas */
+ul, ol{ padding-left: 2rem; }
+.like{ color: green; }
+ol li{ color: crimson; }
+ol li.thunder{ color: purple; }
+
+/* enlaces y h3 */
+a{ color: plum; font-style: italic; text-decoration: none; }
+h3{ font-style: italic; margin-bottom: .5rem; }
+
+/* imagen */
+img{ border-radius: 1rem; display:block; margin-top:.75rem; max-width:100%; }

@@ -1,0 +1,42 @@
+*{ box-sizing:border-box; margin:0; padding:0; }
+
+body{
+  font-size: 16px;           /* base */
+  font-family: sans-serif;
+  color: rgb(61, 195, 236);
+  background-color: black;
+}
+
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background-color:#333;
+  padding: 1rem 2%;
+}
+
+h1{
+  font-size: 2.25rem;   /* título visible */
+  margin:0;
+}
+
+img{ height: 64px; }    /* logo cómodo */
+
+main{
+  max-width: 600px;     /* ancho de lectura */
+  margin: 0 auto;
+  padding: 1.25rem 2%;
+  text-align: left;
+}
+
+h2, h3{ margin: 1rem 0; }
+
+ul{ list-style: none; }
+li{ margin: .5rem 0; }
+
+footer{
+  background-color:#999;
+  padding: .75rem 2%;
+  text-align:center;
+  color:#111;
+}

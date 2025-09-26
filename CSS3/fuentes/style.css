@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'WinserSerif';
+  src: url('assets/WinzerSerif_PERSONAL_USE_ONLY.otf') format('otf');
+}
+
+h1, h2 {
+  font-family:'winserSerif_PERSONAL_USE_ONLY.otf',
+  font-weight normal;
+  font-style: normal;
+  }
+
+.Winser-regular {
+  font-family: WinserSerif;
+  }
